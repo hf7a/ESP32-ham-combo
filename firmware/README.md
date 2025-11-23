@@ -11,7 +11,7 @@ We recommend using **[ESPHome-Flasher](https://github.com/esphome/esphome-flashe
 
 ### Steps:
 
-1.  **Download** the latest `.bin` file from this folder (e.g., `ESP32_ham_combo_v1.0.0.bin`) or from the [Releases](../../releases) page.
+1.  **Download** the latest `.bin` file from this folder (e.g., `ESP32_ham_combo_v1.0.0.bin`) or from the [Releases](https://github.com/hf7a/ESP32-ham-combo/releases) page.
 2.  Download and open **ESPHome-Flasher**.
 3.  Connect your ESP32 board to your computer via USB.
 4.  In ESPHome-Flasher:
@@ -35,3 +35,4 @@ If the flasher gets stuck at the `Connecting........_____.....` stage and eventu
 **License & Copyright**
 
 © 2025 Leszek (HF7A). This firmware is part of the ESP32 Ham Combo project and is licensed under CC BY-NC-SA 4.0.
+
