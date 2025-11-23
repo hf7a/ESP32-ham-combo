@@ -33,4 +33,5 @@ If the flasher gets stuck at the `Connecting........_____.....` stage and eventu
 
 ---
 **License & Copyright**
-© 2025 Leszek (HF7A). This firmware is part of the [ESP32 Ham Combo](../../) project and is licensed under [CC BY-NC-SA 4.0](../../LICENSE).
+
+© 2025 Leszek (HF7A). This firmware is part of the ESP32 Ham Combo project and is licensed under CC BY-NC-SA 4.0.
