@@ -46,6 +46,8 @@ The volume is software-adjustable with four predefined levels (plus a mute optio
 > There are several hardware revisions of the ESP32-2432S028R board. While they may look identical, they can have minor differences in pin connections. The `User_Setup.h` file provided in this repository is configured for a common version. If you experience issues, you may need to **adjust the pin definitions in this file** to match your specific board.
 >
 > Additionally, some board revisions may exhibit inverted colors out of the box (e.g., white text appearing black). This is easily corrected by toggling the **'Invert Colors'** option in the **Display Settings** menu.
+>
+> Also, some displays may require a different orientation. Use the **Screen Rotation** setting in the Display Settings menu to rotate the screen in 90-degree increments.
 
 ---
 
@@ -152,11 +154,11 @@ If the touch input is not working correctly after the first setup, or becomes in
 
 ## License
 
-This project is released under the **CC BY-NC-SA 4.0 License** (Attribution-NonCommercial-ShareAlike 4.0 International).
+This project is released under the **CC BY-NC-SA 4.0 License** (Attribution-NonCommercial-ShareAlike 4.0 International) by **Leszek (HF7A)**.
 
 **Commercial use is prohibited.**
 
-See the [LICENSE.md](LICENSE.md) file for details.
+See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
