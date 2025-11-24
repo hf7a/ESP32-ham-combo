@@ -154,7 +154,7 @@ If the touch input is not working correctly after the first setup, or becomes in
 
 ## License
 
-This project is released under the **CC BY-NC-SA 4.0 License** (Attribution-NonCommercial-ShareAlike 4.0 International) by **Leszek (HF7A)**.
+This project is released under the **CC BY-NC-SA 4.0 License** (Attribution-NonCommercial-ShareAlike 4.0 International) by **[Leszek HF7A](https://www.qrz.com/db/HF7A)**.
 
 **Commercial use is prohibited.**
 
