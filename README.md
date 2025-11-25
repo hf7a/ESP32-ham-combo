@@ -19,10 +19,9 @@ The project is designed for the popular and affordable **ESP32-2432S028R** board
 
 *   **Real-Time DX Spots:** Connects directly to **HamAlert.org** via telnet to display the latest DX spots.
 *   **Comprehensive Propagation Data:** Fetches and displays key solar data from **HamQSL.com**.
-*   **Adjustable Backlight:** Control the screen brightness directly from the settings menu.
-*   **Dual-View Main Screen:** Choose between a full 6-spot view or a 5-spot view with a compact propagation summary footer.
+*   **Dual-View Main Screen:** Choose between a full 6-spot view or a 5-spot view with a compact propagation summary.
 *   **Multiple Clock Modes:** Display time in UTC, local time, or both simultaneously.
-*   **Intuitive Touch Interface:** All functions and settings are accessible via the touchscreen.
+*   **Touch Interface:** All functions and settings are accessible via the touchscreen.
 *   **Web-Based Configuration:** A full settings panel accessible from any web browser on your network.
 *   **On-Screen Touch Calibration:** A built-in routine to calibrate the touchscreen for perfect accuracy.
 *   **Persistent Settings:** All your configurations are saved to the device's flash memory and automatically reloaded on startup.
@@ -38,9 +37,9 @@ This project is specifically tailored for the **ESP32-2432S028R** board, powered
 
 ### Optional Speaker for Audio Alerts
 
-The board includes a **2-pin Micro JST (1.25mm pitch) female connector** for attaching a small external speaker (e.g., 8 Ohm, 0.5W). This enables audible alerts for new DX spots.
+The board includes a **2-pin Micro JST (1.25mm pitch) socket** for attaching a small external speaker (e.g., 8 Ohm, 0.5W). This enables audible alerts for new DX spots.
 
-The volume is software-adjustable with four predefined levels (plus a mute option). If the lowest setting is still too loud, it is recommended to connect the speaker in series with a current-limiting resistor (a value between **100-500 Ohms** is a good starting point) to further decrease the volume.
+The volume is software-adjustable with four predefined levels (plus a mute option). If the lowest setting is still too loud, it is recommended to connect the speaker in series with a current-limiting resistor to further decrease the volume.
 
 > **:warning: Important Note on Board Variations:**
 > There are several hardware revisions of the ESP32-2432S028R board. While they may look identical, they can have minor differences in pin connections. The `User_Setup.h` file provided in this repository is configured for a common version. If you experience issues, you may need to **adjust the pin definitions in this file** to match your specific board.
@@ -82,7 +81,7 @@ The volume is software-adjustable with four predefined levels (plus a mute optio
 On the first boot, the device enters **Configuration Mode**.
 1.  Connect to the Wi-Fi network **`ESP32-Ham-Combo-Setup`**.
 2.  Open a browser and go to **`http://192.168.4.1`**.
-3.  Enter your home Wi-Fi details and HamAlert credentials.
+3.  Enter your home Wi-Fi details. (HamAlert credentials are optional here; they can also be configured later via the web interface).
 4.  Save and restart.
 
 ### Configuring HamAlert (Mandatory for DX Spots)
@@ -136,7 +135,7 @@ The colors on the propagation screen are based on standard conventions to help y
 
 **Unresponsive or Inaccurate Touchscreen**
 
-If the touch input is not working correctly after the first setup, or becomes inaccurate over time, follow these steps.
+If the touch input is not working correctly, follow these steps.
 
 1.  **Run Calibration from the Web Interface**
     *   Go to the device's web interface using its IP address.
