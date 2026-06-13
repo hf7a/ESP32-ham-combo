@@ -151,6 +151,11 @@ If the touch input is not working correctly, follow these steps.
 
 ---
 
+## Acknowledgements & Data Source
+
+* **Data Provider**: All real-time DX spot data is provided by [HamAlert.org](https://hamalert.org).
+* **Disclaimer**: This integration is an independent, community-driven third-party project and is not officially affiliated with, endorsed, or maintained by HamAlert.
+
 ## License
 
 This project is released under the **CC BY-NC-SA 4.0 License** (Attribution-NonCommercial-ShareAlike 4.0 International) by **[Leszek HF7A](https://www.qrz.com/db/HF7A)**.
